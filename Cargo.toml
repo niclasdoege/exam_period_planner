@@ -1,0 +1,27 @@
+[package]
+name = "tutorial"
+version = "0.1.0"
+authors = ["Niclas Doege <niclas.doege@rwth-aachen.de>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+dioxus = { version = "0.5", features = ["web"] }
+
+# Debug
+tracing = "0.1.40"
+dioxus-logger = "0.5.0"
+chrono = { version = "0.4.38", features = ["serde"] }
+futures = "0.3.30"
+reqwest = { version = "0.12.5", features = ["json"] }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.120"
+async-recursion = "1.1.1"
+strum_macros = "0.26.4"
+log = "0.4.22"
+wasm-logger = "0.2.0"
+thiserror = "1.0.61"
+manganis = "0.2.2"
+gloo = "0.11.0"
