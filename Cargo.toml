@@ -1,5 +1,5 @@
 [package]
-name = "tutorial"
+name = "exam_period_planner"
 version = "0.1.0"
 authors = ["Niclas Doege <niclas.doege@rwth-aachen.de>"]
 edition = "2021"
